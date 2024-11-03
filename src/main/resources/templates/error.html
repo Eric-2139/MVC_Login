@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro</title>
+    <link rel="stylesheet" th:href="@{/css/error.css}">
+</head>
+
+<body>
+    <main class="content">
+        <div class="information">
+            <h1>Página de erro</h1>
+        </div>
+
+        <div class="information">
+            <p>Calma Guerreiro, verifique se as suas informações foram escritas corretamente, para regressar clique abaixo</p>
+        </div>
+
+        <div class="information">
+            <a th:href="@{/login}">Caminho do Retorno</a>
+        </div>
+    </main>
+</body>
+
+</html>

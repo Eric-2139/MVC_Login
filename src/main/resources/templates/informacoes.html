@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações</title>
+    <link rel="stylesheet" th:href="@{/css/informacoes.css}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Eric</a>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Habilidades</a>
+            <a href="#">Experiência</a>
+            <a href="#">Educação</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img th:src="@{/images/portifolio.jpg}" alt="portifolio">
+        </div>
+
+        <div class="home-content">
+            <h1>Prazer, me chamo <span>Eric</span></h1>
+            <h3>Sou programador</h3>
+            <p>Atualmente meu interesse de estudo está em automação e ia com a linguagem Python, adoro games, anime e esportes e sou praticante de artes marciais</p>
+
+            <div class="social-icons">
+                <a href="#" class="bi bi-linkedin"></a>
+                <a href="https://github.com/Eric-2139" target="_self" class="bi bi-github"></a>
+                <a href="#" class="bi bi-instagram"></a>
+                <a href="#" class="bi bi-whatsapp"></a>
+            </div>
+            
+            <a th:href="@{/login}" class="login">Ir para Login</a>
+        </div>
+    </section>
+    
+</body>
+
+</html>
